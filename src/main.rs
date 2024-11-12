@@ -1,6 +1,5 @@
-pub mod domain;
-pub mod infrastructure;
-pub mod usecase;
+pub mod sharedkernel;
+pub mod user;
 
 fn main() {
     println!("Hello, world!");

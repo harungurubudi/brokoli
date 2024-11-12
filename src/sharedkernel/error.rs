@@ -140,8 +140,8 @@ macro_rules! application_error_function {
                 Code, status dan description menggunakan default value
                 */
                 () => {
-                    crate::domain::sharedkernel::error::ApplicationError{
-                        status: crate::domain::sharedkernel::error::ApplicationErrorStatus::$status,
+                    crate::sharedkernel::error::ApplicationError{
+                        status: crate::sharedkernel::error::ApplicationErrorStatus::$status,
                         code: $code,
                         error: $default_error,
                         description: $default_description,

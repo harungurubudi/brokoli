@@ -1,4 +1,4 @@
-use crate::domain::sharedkernel::{email::Email, password::Hash};
+use super::super::sharedkernel::{email::Email, password::Hash};
 use serde::{Deserialize, Serialize};
 use uuid::Uuid;
 
